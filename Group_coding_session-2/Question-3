@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Prompt the user to enter a phrase
+echo "Please enter a phrase:"
+
+# Read the user's input into a variable
+read phrase
+
+# Count the number of words in the phrase
+word_count=$(echo "$phrase" | wc -w)
+
+# Count the number of white spaces in the phrase
+space_count=$(echo "$phrase" | tr -cd ' ' | wc -c)
+
+# Print the results
+echo "The number of words is $word_count"
+echo "The number of white spaces is $space_count"
+

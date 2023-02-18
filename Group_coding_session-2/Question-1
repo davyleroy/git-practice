@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Print the strings "one", "two", "three", "four", and "five" on separate lines
+echo "one
+two
+three
+four
+five"
+
+# Create a file with today's date in the filename and write the strings to it
+filename="$(date +%Y-%m-%d)-file.txt"
+echo "one
+two
+three
+four
+five" > "$filename"

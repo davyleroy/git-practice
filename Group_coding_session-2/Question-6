@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Prompt the user for the message template file path
+echo "Please enter the path of the message template file:"
+read template_file
+
+# Prompt the user for the recipients list file path
+echo "Please enter the path of the recipients list file:"
+read recipients_file
+
+# Loop through each recipient name in the recipients list file
+while read -r recipient_name; do
+  # Use sed to replace the placeholder text in the template file with the recipient name
+  sed "s/Recipeints_Name/$recipient_name/g" "$template_file" > "$recipient_name.txt"
+done < "$recipients_file"
+
