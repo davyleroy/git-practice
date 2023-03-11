@@ -14,7 +14,7 @@ for i in range(len(courses)):
 # prompt the user for their selection
 selection = int(input("Enter the number of the course you want to take: "))
 
-# execute the corresponding code block based on the user's selection
+# executing the corresponding code block based on the user's selection
 if selection == 1:
     print("You have selected Python Programming.")
     # add code to start the Python Programming course
