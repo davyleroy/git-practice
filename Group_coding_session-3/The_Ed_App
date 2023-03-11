@@ -2,7 +2,7 @@
 
 import getpass
 
-name = input('username: ')
+name = input('Your name: ')
 password = getpass.getpass(prompt="Enter your password: ")
 
 print('_' * 70)
