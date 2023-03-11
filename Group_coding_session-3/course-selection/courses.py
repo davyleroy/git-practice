@@ -23,7 +23,6 @@ elif selection == 2:
     # add code to start the Web Development course
 elif selection == 3:
     print("You have selected Data Science.")
-    # add code to start the Data Science course
 elif selection == 4:
     print("You have selected Machine Learning.")
 else:
