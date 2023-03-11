@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+import getpass
+
+name = input('username: ')
+password = getpass.getpass(prompt="Enter your password: ")
+
+print('_' * 70)
+
+print(f'Welcome {name}')
+
+print('_' * 70)
+
+print('(1) BEL \n (2) BSE \n (3) BIT')
+
+choice = int(input('choose your faculty: '))
+print('\n')
+
+print('_' * 70)
+
+if choice == 1:
+    print('The Book of Job or simply Job, is a book found in the Ketuvim ("Writings") section of the Hebrew Bible (Tanakh), and is the first of the Poetic Books in the ...Preceded by3 Maccabees: Eastern Orthodox; ...‎Preceded byProverbs: Hebrew BiblePreceded by2 Maccabees: Roman Catholic; ‎Old ...‎Preceded byEsther: Protestant; ‎Old Testament‎')
+elif choice == 2:
+    pass
+elif choice == 3:
+    pass
