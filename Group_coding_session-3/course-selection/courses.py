@@ -26,6 +26,5 @@ elif selection == 3:
     # add code to start the Data Science course
 elif selection == 4:
     print("You have selected Machine Learning.")
-    # add code to start the Machine Learning course
 else:
     print("Invalid selection.")
