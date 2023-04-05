@@ -16,7 +16,7 @@ A Python-based intranet system designed to assist students with their everyday l
 ## Installation
 
 1. Ensure you have Python 3.7 or later installed: [Download Python](https://www.python.org/downloads/)
-2. Clone the repository: `git clone https://github.com/yourusername/PLD-Group-Work-Project.git`
+2. Clone the repository: `git clone https://github.com/davyleroy/git-practice.git`
 3. Install any required dependencies using pip: `pip install -r requirements.txt` (If applicable)
 
 ## Usage
